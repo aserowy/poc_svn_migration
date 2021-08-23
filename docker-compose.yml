@@ -1,0 +1,11 @@
+version: "3.0"
+services:
+  svn-server:
+    image: elleflorio/svn-server:latest
+    container_name: svn-server
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "3690:3690"
+    volumes:
+      - ./svn:/home/svn

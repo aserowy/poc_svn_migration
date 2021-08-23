@@ -1,0 +1,7 @@
+.direnv/
+
+git/*
+!git/.gitkeep
+
+svn/*
+!svn/.gitkeep
