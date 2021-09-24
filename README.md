@@ -61,6 +61,7 @@ cd ..
 
 ```sh
 git remote add origin <repo url>
+git branch -M main
 git push -u origin main
 ```
 
